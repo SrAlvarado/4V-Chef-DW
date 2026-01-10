@@ -1,3 +1,4 @@
+<?php
 // src/Controller/MasterDataController.php
 namespace App\Controller;
 

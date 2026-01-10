@@ -1,3 +1,4 @@
+<?php
 // src/Controller/RecipeController.php
 namespace App\Controller;
 
