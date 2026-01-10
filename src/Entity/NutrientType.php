@@ -1,3 +1,4 @@
+<?php
 // src/Entity/NutrientType.php
 namespace App\Entity;
 

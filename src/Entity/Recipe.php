@@ -1,3 +1,4 @@
+<?php
 // src/Entity/Recipe.php
 namespace App\Entity;
 
