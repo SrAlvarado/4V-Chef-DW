@@ -1,3 +1,4 @@
+<?php
 // src/DataFixtures/AppFixtures.php
 namespace App\DataFixtures;
 
