@@ -1,3 +1,4 @@
+<?php
 // src/Entity/RecipeType.php
 namespace App\Entity;
 
@@ -16,7 +17,7 @@ class RecipeType
     private ?string $name = null;
 
     #[ORM\Column(length: 255)]
-    #[Groups(['type:read'])]
+    #[Groups(['recipe:read', 'type:read'])]
     private ?string $description = null;
 
     // Getters y Setters...
