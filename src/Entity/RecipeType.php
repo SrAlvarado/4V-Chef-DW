@@ -20,7 +20,6 @@ class RecipeType
     #[Groups(['recipe:read', 'type:read'])]
     private ?string $description = null;
 
-    // Getters y Setters...
     public function getId(): ?int { return $this->id; }
     public function getName(): ?string { return $this->name; }
     public function setName(string $name): static { $this->name = $name; return $this; }

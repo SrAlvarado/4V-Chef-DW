@@ -26,7 +26,6 @@ class Ingredient
     #[ORM\JoinColumn(nullable: false)]
     private ?Recipe $recipe = null;
 
-    // Setters y Getters estándar (ignorar getters por brevedad aquí, pero debes incluirlos)
     public function setName(string $name): static { $this->name = $name; return $this; }
     public function getName(): ?string { return $this->name; }
     public function setQuantity(float $quantity): static { $this->quantity = $quantity; return $this; }

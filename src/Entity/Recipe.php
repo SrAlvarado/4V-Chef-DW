@@ -56,7 +56,6 @@ class Recipe
         $this->ratings = new ArrayCollection();
     }
 
-    // --- Campo virtual para cumplir con el objeto "rating" del YAML ---
     #[Groups(['recipe:read'])]
     public function getRating(): array
     {
@@ -72,7 +71,6 @@ class Recipe
         ];
     }
 
-    // Getters y Setters básicos
     public function getId(): ?int { return $this->id; }
     public function getTitle(): ?string { return $this->title; }
     public function setTitle(string $title): static { $this->title = $title; return $this; }

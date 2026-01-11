@@ -50,7 +50,7 @@ class RecipeController extends AbstractController
     ): JsonResponse {
         $data = json_decode($request->getContent(), true);
 
-        // VALIDACIONES (Error schema: {code, description})
+        // VALIDACIONES
         
         // 1. Campos obligatorios
         if (empty($data['title']) || empty($data['number-diner'])) {
